@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.montaga-regular {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;     /* vertical center */
+  justify-content: center; /* horizontal center */
+  height: 100vh;   
+  font-family: 'Montaga', sans-serif;        /* viewport height */
+}
+
+.input-box { 
+   margin-top: 100px;
+   margin-left: 80px;
+   margin-right: 80px;  
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border-radius: 30px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffaffa61;
+    z-index: 1;
+}
+
+.input-msg {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.input-msg h4{
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.input-text{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.input-text input{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+    border: none;
+    border-radius: 10px ;
+}
+
+
+.submit{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit button{
+    width: auto;
+    height: auto;
+    font-size: larger;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #58E366;
+    font-weight: bold;
+}
+
+

@@ -1,5 +1,5 @@
 aiosmtpd==1.4.6
-altgraph @ file:///AppleInternal/Library/BuildRoots/2c89a47b-9dd5-11ef-938f-6e654a286000/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
+altgraph==0.17.2
 atpublic==5.1
 attrs==25.1.0
 bcrypt==4.3.0
@@ -10,12 +10,12 @@ charset-normalizer==3.3.2
 click==8.1.8
 cryptography==44.0.2
 Flask==3.1.0
-future @ file:///AppleInternal/Library/BuildRoots/2c89a47b-9dd5-11ef-938f-6e654a286000/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
+future==0.18.2
 idna==3.7
 importlib_metadata==8.6.1
 itsdangerous==2.2.0
 Jinja2==3.1.5
-macholib @ file:///AppleInternal/Library/BuildRoots/2c89a47b-9dd5-11ef-938f-6e654a286000/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
+macholib==0.17.2
 MarkupSafe==3.0.2
 numpy==2.0.2
 pandas==2.2.3
@@ -28,7 +28,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.2
 requests==2.32.3
-six @ file:///AppleInternal/Library/BuildRoots/2c89a47b-9dd5-11ef-938f-6e654a286000/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
+six==1.15.0
 tzdata==2024.2
 urllib3==2.2.2
 Werkzeug==3.1.3

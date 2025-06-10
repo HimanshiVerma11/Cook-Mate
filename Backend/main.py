@@ -47,4 +47,9 @@ async def root(link:URL):
 @app.get("/health")
 def health_check():
    return {"status":"ok"}
+
+
+@app.head("/")
+def health_check_head():
+    return 
     

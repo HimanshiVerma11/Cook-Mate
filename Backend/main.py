@@ -15,7 +15,7 @@ app = FastAPI()
 # Enable CORS so frontend can talk to backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cook-mate-frontend.onrender.com/"],  # replace with your frontend URL in production
+    allow_origins=["https://cook-mate-frontend.onrender.com"],  # replace with your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]

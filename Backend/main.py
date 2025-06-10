@@ -41,3 +41,10 @@ async def root(link:URL):
     else:
        return {"response": "An error occurred!"}
     
+
+
+
+@app.get("/health")
+def health_check():
+   return {"status":"ok"}
+    

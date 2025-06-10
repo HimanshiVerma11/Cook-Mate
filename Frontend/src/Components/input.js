@@ -13,7 +13,7 @@ export default function Input({setScreen,setInputValue}) {
     event.preventDefault(); 
     setScreen('loader');
      try {
-      const response = await axios.post("http://127.0.0.1:8000/main", {
+      const response = await axios.post("https://cook-mate.onrender.com/main", {
         url: url,
       });
       if(response.data){
